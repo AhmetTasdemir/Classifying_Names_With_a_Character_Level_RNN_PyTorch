@@ -1,7 +1,7 @@
 
 
 
-In this project series, we will be constructing and training a simple character-level recurrent neural network (RNN) for word classification. The purpose of these tutorials is to demonstrate the process of preprocessing data for natural language processing (NLP) modeling from scratch, without relying on the convenience functions provided by torchtext. By doing so, we will gain a deeper understanding of the underlying principles of NLP preprocessing.
+In this project, we will be constructing and training a simple character-level recurrent neural network (RNN) for word classification. The purpose of these tutorials is to demonstrate the process of preprocessing data for natural language processing (NLP) modeling from scratch, without relying on the convenience functions provided by torchtext. By doing so, we will gain a deeper understanding of the underlying principles of NLP preprocessing.
 
 Unlike traditional word-level models, a character-level RNN interprets words as a sequence of individual characters. At each step, the model generates a prediction and a “hidden state,” which is then passed on to the subsequent step. The final prediction of the model determines the class or language to which the word belongs.
 
